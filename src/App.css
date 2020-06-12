@@ -1,0 +1,36 @@
+body{
+  overflow-x: hidden;
+}
+
+.main-image {
+  background: url(../src/images/books.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.card-title {
+  overflow: hidden;
+  color: rgb(0, 0, 0, 0.7);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.filter:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: '';
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
